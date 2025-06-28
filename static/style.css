@@ -1,0 +1,28 @@
+
+
+.hidden{
+  opacity: 0;
+  filter: blur(5px);
+  transition: all 1s;
+}.left{
+  transform: translateX(-50%);
+}.bottom{
+  transform: translateY(-80%);
+}.top{
+  transform: translateY(-100%);
+}.right{
+  transform: translateX(+50%);
+}.zoom{
+  scale: 0;
+}
+
+.show{
+  opacity: 1;
+  filter: blur(0);
+  scale: 1;
+  transform: translateY(0);
+}
+
+
+
+

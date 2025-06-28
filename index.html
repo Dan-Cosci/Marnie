@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <style>
+      body{
+        font-family: roboto;
+      }
+
+      section{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .img-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+        padding: 2rem 0;
+      }
+
+      .img-container img {
+        object-fit: cover;
+        height: 200px;
+        width: 200px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        max-width: 100%;
+      }
+
+      .img-container img:hover {
+        transform: scale(1.2);
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, .8);
+      }
+
+      .img-container img:active{
+        opacity: 80%;
+        transition: 0.2s;
+      }
+    </style>
+
+    <title>Our Website</title>
+  </head>
+  <body>
+
+    <section id="Page-Part-1" class="hidden bottom">
+      <div class="container">
+        <h1>HELLO DARLING</h1>
+        <img src="assets/gif/Art Love GIF by Felipe De Vicente copy.gif" alt="">
+        <h1>I KNOW THIS IS A SURPRISE FOR YOU</h1>
+      </div>
+    </section>
+
+    <section id="Page-Part-2" class="hidden right">
+      <div class="container">
+        <h1>I KNOW THAT YOU COULD TELL THAT I WAS CODING SOMETHING LATELY</h1>
+        <img src="assets/gif/Cat Reaction GIF by reactionseditor.gif">
+      </div>
+    </section>
+
+    <section id="Page-Part-3" class="hidden left">
+      <div class="container">
+        <h1>I WANTED TO DO SOMETHING SPECIAL</h1>\
+        <img src="assets\gif\my cat GIF.gif" height="400px">
+        <h1>SINCE WE COULDN'T SEE EACH OTHER OFTEN</h1>
+      </div>
+    </section>
+
+    <section id="Page-Part-4" class="hidden zoom">
+      <div class="container">
+        <h1>ARE YOU READY?</h1>
+        <div class="img-container container">
+          <img src="assets/gif/download.gif" alt="Download GIF">
+          <a href="main.html"><img src="assets/gif/Im Ready Lets Go GIF by Leroy Patterson.gif" alt="Ready GIF"></a>
+        </div>
+      </div>
+    </section>
+
+
+   
+  </body>
+  <script defer src="static/script.js"></script>
+  
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</html>

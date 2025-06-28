@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <title>Darling</title>
+  </head>
+  <body>
+
+    <!-- navigation bar -->
+    <div class="container hidden bottom">
+      <header class="d-flex justify-content-center py-3">
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="#" class="nav-link active" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link" aria-current="page">back</a>
+          </li>
+          
+        </ul>
+      </header>
+    </div>
+
+    <!-- hero section -->
+    <div class="px-4 pt-5 my-5 text-center border-bottom hidden zoom" >
+      <h1 class="display-4 fw-bold text-body-emphasis hidden zoom">&#x1F389;HAPPY 2ND MONTHSARY&#x1F389;</h1>
+      <div class="col-lg-6 mx-auto pb-5">
+        <p class="lead mb-4 hidden top">
+          For the wonderful girl that has made my life so much more worth living,
+            to the girl that always effortlessly makes me smile, I love you very much
+        </p>
+      </div>
+
+      <div class="overflow-hidden pt-5" style="max-height: 100vh;">
+        <div class="container px-5">
+          <img src="assets\images\6260134328679908168.jpg" class="img-fluid border rounded-3 shadow-lg mb-4 hidden bottom"  width="700" height="500" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+    <!-- carousel gallery -->
+    <section id="gallery-carousel" class="container hidden py-10">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets\images\6260134328679908159 (1).jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Our 1st Monthsary</h4>
+              <p>As well as the last time that we will see each other in a while</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets\images\6260134328679908162.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets\images\6260134328679908167.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- random text area -->
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Album example</h1>
+          <p class="lead text-body-secondary">
+            Something short and leading about the collection below—its contents, the creator, etc.
+            Make it short and sweet, but not too short so folks don’t simply skip over it entirely.
+          </p>
+          <p>
+            <a href="#" class="btn btn-primary my-2">Main call to action</a>
+            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- album cards -->
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          
+          <!-- Card 1 -->
+          <!-- <div class="col">
+            <div class="card shadow-sm hidden left">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" />
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em" text-anchor="middle">Thumbnail</text>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural lead-in to additional content.
+                  This content is a little bit longer.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div> -->
+ 
+
+          <!-- Repeat this block for each card -->
+          <!-- Card 2 -->
+          <!-- Card 3 -->
+          <!-- ... -->
+          <!-- Card N -->
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+  <script defer src="static/script.js"></script>
+  
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</html>
