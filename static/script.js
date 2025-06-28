@@ -13,19 +13,20 @@ const observer = new IntersectionObserver((entries) => {
 document.addEventListener('DOMContentLoaded', () => {
 
   const descriptions = [
-    "Photobooth during our meet up on June 11 when you went and helped you bestfriend with her yes problem. I was so happy this time because I got to see you once again after a long time",
-    "This was a photo of our meet up on Jun 18 when you erolled at your school. We had nothing plan specifically that day but being with you made it fun and all the more worth the trouble of going to see you.",
-    "A random photo during our monthsary of having you act all random and random. I love every bit of your sides even that you deem not attractive I find so beautiful",
-    "I know that the succeeding photos are just photos of our previous Monthsary and I know that I've already ran out of ideas to share to you.",
-    "But with the days that has passed, it showcased to me that distance isn't a problem with the both of us genuinely want to make things work with each other.",
-    "5",
-    "6",
-    "7",
-    "8",
-    "9",
-    "10",
-    "11"
+    "Photobooth during our meet up on June 11 when you went and helped your best friend with her YES problem. I was so happy this time because I got to see you once again after a long time.",
+    "This was a photo of our meet up on June 18 when you enrolled at your school. We had nothing planned specifically that day, but being with you made it fun and all the more worth the trouble of going to see you.",
+    "A random photo during our monthsary of having you act all random and silly. I love every bit of your personality—even the things you think aren’t attractive, I find beautiful.",
+    "I know the succeeding photos are just from our previous monthsary, and I know I’ve already run out of ideas to describe how special you are.",
+    "But with the days that have passed, it’s shown me that distance isn’t a problem when both of us genuinely want to make things work.",
+    "I love you so much, darling. Even words fail to describe how much you've made my days brighter just with your smile and presence.",
+    "I can no longer spend a day without thinking about you, wondering what you're doing. I want to be beside you always and never be apart again.",
+    "I still remember the first time I held your hand and how natural it felt—like I was meant to hold it forever.",
+    "Every photo here is a memory, but it’s also a promise—that I’ll keep making new ones with you, over and over again.",
+    "You are the home I never knew I was missing, and every second spent with you fills a part of me I didn’t know was empty.",
+    "I know life won’t always be perfect, but I promise to always choose you, even when it’s hard.",
+    "Thank you for being my peace, my warmth, my love. Here’s to many more months and memories together. Happy 2nd Monthsary, my darling."
   ];
+
 
   const imageFolder = 'assets/gallery'; // Make sure path is correct
   const cardRow = document.querySelector('.row-cols-md-3');
